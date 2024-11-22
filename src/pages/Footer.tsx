@@ -6,12 +6,11 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Wood Crafters</h3>
-            <p className="text-wood-medium">
-              Transforming spaces with exceptional carpentry since 1995.
-            </p>
-            <p className="text-wood-medium mt-4">
-              Address: 123 Woodcraft Lane, Carpenter's City, WO 56789
+            <h3 className="text-2xl font-bold mb-4">Laxmi Foundation Wood</h3>
+
+            <p className="text-wood-medium text-sm mt-4">
+              Address: Lokmanya Chawl,vadar pada road no 1 , hanuman nagar
+              kandivali East mumbai -400101
             </p>
           </div>
           <div>
@@ -115,6 +114,11 @@ export default function Footer() {
               >
                 <Linkedin className="h-6 w-6" />
               </a>
+            </div>
+
+            <div className="mt-4">
+              <p className="text-sm"> Email: ravirajj54555@gmail.com </p>
+              <p className="text-sm">phone: 8176058968</p>
             </div>
           </div>
         </div>
