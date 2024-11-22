@@ -4,6 +4,7 @@ import hero from "../assets/hero.webp";
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
+  console.log(scrollY);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
